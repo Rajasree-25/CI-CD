@@ -65,7 +65,7 @@ An autonomous desktop application that clones a GitHub repository, discovers and
 
 ```bash
 git clone https://github.com/Rajasree-25/CI-CD.git
-cd cicd
+cd CI-CD
 ```
 
 ### 2 · Configure environment
