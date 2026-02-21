@@ -64,8 +64,8 @@ An autonomous desktop application that clones a GitHub repository, discovers and
 ### 1 · Clone this repository
 
 ```bash
-git clone https://github.com/YOUR_ORG/cicd-healing-agent.git
-cd cicd-healing-agent
+git clone https://github.com/Rajasree-25/CI-CD.git
+cd cicd
 ```
 
 ### 2 · Configure environment
