@@ -161,10 +161,8 @@ The installer will be generated in `electron-app/dist/`.
 
 Branches are auto-named using the format:
 ```
-TEAM_NAME_LEADER_NAME_AI_Fix
+TEAM_NAME_LEADER_NAME_AT_Fix
 ```
-Example: `RIFT_ORGANISERS_SAIYAM_KUMAR_AI_Fix`
-
 All commits are prefixed with `[AI-AGENT]`.
 
 ---
@@ -179,22 +177,3 @@ All commits are prefixed with `[AI-AGENT]`.
 
 ---
 
-## Security Notes
-
-- GitHub PAT and LLM keys are stored only in `backend/.env` (never committed)
-- All test code runs in Docker containers with `--network none`
-- No pushing to `main` or default branch; only to the dedicated AI-Fix branch
-
----
-
-## Known Limitations
-
-- Requires Docker Desktop for fully sandboxed execution (falls back to subprocess)
-- LLM fix quality depends on model capability and context window size
-- Very large repositories (>10K files) may slow the Monaco file tree
-- GitHub CI polling requires PAT with `repo` scope
-
----
-
-
----
